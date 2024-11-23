@@ -86,5 +86,8 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 - Creating a service bus namespace to handle the notifications is a good idea for using azure notification service instead of using event grid or event hub, event hub.
 
 - To use cost reasonably:
-  - Using the basic plan for service bus, burstable and premium SSD for azure postgres flexible database and comsumption plan function app.
-  - With B1 plan for app service we also have SLA rate up to 99.5%. Futhermore f performance optimization is needed, we can choose B3 or B2 for application service and premium package for functional application.
+  - Using the Basic plan for Service Bus.
+  - For Azure Storage account, I choose Standard performance and Hot access tier.
+  - Using Burstable and premium SSD for azure postgres flexible database.
+  - With Azure function app, I choose Comsumption plan for scales automatically, even during periods of high load.
+  - With B1 plan for App service we also have SLA rate up to 99.5%. Futhermore f performance optimization is needed, we can choose B3 or B2 for application service and premium package for functional application.
